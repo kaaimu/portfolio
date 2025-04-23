@@ -7,8 +7,8 @@ export default {
       assets: 'build',
       fallback: 'index.html' // optional, untuk SPA
     }),
-    paths: {
-      base: process.env.NODE_ENV === 'production' ? '/portfolio' : ''
-    }
+	paths: {
+		base: process.env.NODE_ENV === 'production' ? '/portfolio' : ''
+	  }
   }
 }
