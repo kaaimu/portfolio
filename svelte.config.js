@@ -8,7 +8,7 @@ export default {
       fallback: 'index.html' // optional, untuk SPA
     }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/NAMA_REPO' : ''
+      base: process.env.NODE_ENV === 'production' ? '/portfolio' : ''
     }
   }
 }
